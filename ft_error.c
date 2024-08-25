@@ -6,7 +6,7 @@
 /*   By: rdennaou <rdennaou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/06 16:45:41 by rdennaou          #+#    #+#             */
-/*   Updated: 2024/07/30 17:59:30 by rdennaou         ###   ########.fr       */
+/*   Updated: 2024/08/16 17:35:40 by rdennaou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,6 @@ void	free_str(char **str)
 
 void	error(char *msg)
 {
-	write(1, msg, ft_strlen(msg));
+	write(2, msg, ft_strlen(msg));
 	exit(1);
 }

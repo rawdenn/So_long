@@ -6,7 +6,7 @@
 /*   By: rdennaou <rdennaou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/16 12:41:12 by rdennaou          #+#    #+#             */
-/*   Updated: 2024/08/16 13:48:32 by rdennaou         ###   ########.fr       */
+/*   Updated: 2024/08/16 17:34:17 by rdennaou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,7 @@ void	check_argv(int argc, char *argv)
 		error("Not Enough Arguments\n");
 	len = ft_strlen(argv);
 	if (argv[len - 1] != 'r' && argv[len - 2] != 'e'
-		&& argv[len - 3] != 'b' && argv[len - 1] != '.')
+		&& argv[len - 3] != 'b' && argv[len - 4] != '.')
 		error("File should end in .ber\n");
 }
 
