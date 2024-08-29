@@ -1,5 +1,4 @@
 CC = gcc
-
 CFLAGS = -Wall -Wextra -Werror -g
 
 SRC = check_map_utils.c \
